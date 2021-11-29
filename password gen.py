@@ -2,7 +2,7 @@ import random
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 NUMBER = "0123456789"
-Symbol = "[]{}#()*;a_-"
+Symbol = "[]{}#()*;_-.,\|~`"
 
 all=lower + upper + NUMBER + Symbol
 length = 16
