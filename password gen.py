@@ -7,4 +7,4 @@ Symbol = "[]{}#()<>*;_-.,\|~`"
 all=lower + upper + NUMBER + Symbol
 length = 16
 password = "".join(random.sample(all,length))
-print (" The Password You Generated is",password)
+print ("Password:",password)
